@@ -1,0 +1,28 @@
+.header
+    height: $nav-height
+    &__nav
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        max-width: 1140px
+        margin: 0 auto
+        &__title
+            line-height: $nav-height
+            font-weight: $font-regular
+            color: $global-color-text
+        &__right
+            display: flex
+            &__btn
+                padding: 10px 0
+                &__inner
+                    display: block
+                    line-height: calc($nav-height - 20px)
+                    color: $global-color-text
+                    text-decoration: none
+                    font-weight: $font-light
+                    padding: 0 40px
+                .--blue
+                    background-color: $global-color-accent
+                    border-radius: 6px
+                    color: white
+                    padding: 0 50px
