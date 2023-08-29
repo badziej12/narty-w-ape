@@ -159,6 +159,8 @@
 
         &__con
             margin: 5% 0
+            &--margin
+                margin: 10% 0
             &__title
                 font-size: $size-h4
                 font-weight: $font-medium
@@ -205,8 +207,29 @@
                     font-size: $size-h5
                 &--margin
                     margin: 3% 0
+                &--center
+                    text-align: center
 
             &__img
                 display: block
                 width: 90%
                 margin: 0 auto
+
+            &__contact
+                display: flex
+                max-width: 350px
+                justify-content: space-between
+                margin: 3% auto
+                &__text
+                    flex-grow: 1
+                    text-align: center
+                    font-size: $size-h4
+                    font-weight: $font-medium
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    &__link
+                        text-decoration: none
+                        color: $global-color-text
+                &__img
+                    width: 50px
