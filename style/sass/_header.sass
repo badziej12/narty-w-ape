@@ -1,15 +1,23 @@
 .header
     height: $nav-height
+    background-color: white
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
     &__nav
         display: flex
         flex-direction: row
         justify-content: space-between
         max-width: 1140px
         margin: 0 auto
+        padding: 0 3%
         &__title
+            display: block
             line-height: $nav-height
             font-weight: $font-regular
             color: $global-color-text
+            text-decoration: none
         &__right
             display: flex
             &__btn
