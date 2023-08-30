@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,10 +34,32 @@
                 </div>
             </div>
         </nav>
+        <nav class="header__navmobile">
+            <div class="header__navmobile__con">
+                <a href="index.html" class="header__navmobile__con__title">Narty w Apeninach</a>
+                <div class="header__navmobile__con__burgercon">
+                    <div class="header__navmobile__con__burgercon__burger">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            </div>
+            <ul class="header__navmobile__menucon">
+                <li class="header__navmobile__menucon__btncon"><a href="index.html"
+                        class="header__navmobile__menucon__btncon__btn">Strona główna</a></li>
+                <li class="header__navmobile__menucon__btncon"><a href="cennik.html"
+                        class="header__navmobile__menucon__btncon__btn">Cennik</a></li>
+                <li class="header__navmobile__menucon__btncon"><a href="pensjonat.html"
+                        class="header__navmobile__menucon__btncon__btn">Pensjonat</a></li>
+                <li class="header__navmobile__menucon__btncon"><a href="kontakt.html"
+                        class="header__navmobile__menucon__btncon__btn">Skontaktuj się</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="main">
         <section class="main__section main__section--blue">
-            <h1 class="main__section__title main__section__title--smaller main__section__title--left">Pensjonat</h1>
+            <h1
+                class="main__section__title main__section__title--smaller main__section__title--lineheight main__section__title--left">
+                Pensjonat</h1>
         </section>
         <section class="main__section">
             <div class="main__section__con">
@@ -44,7 +68,7 @@
             <div class="main__section__con">
                 <p class="main__section__con__text main__section__con__text--margin">Miejsce zakwaterowania to mała
                     miejscowość w typowo włoskim
-                    klimacie.Montecreto z równie urokliwym i klimatycznym pensjonatem - Trogolino.
+                    klimacie. Montecreto z równie urokliwym i klimatycznym pensjonatem - Trogolino.
                     <br>Odległość do wyciągu - 200 m.
                 </p>
                 <p class="main__section__con__text">Strona rezydencji: <br>
@@ -63,7 +87,42 @@
                     regionalnym winie i muzyce na żywo - gra zespół "Con Lapsus"</p>
             </div>
         </section>
+        <section class="main__section main__section">
+            <div class="main__section__con">
+                <h2 class="main__section__con__title">Hotel Residence Margherita</h2>
+            </div>
+            <div class="main__section__con">
+                <p class="main__section__con__text main__section__con__text--margin">Miejsce zakwaterowania to mała
+                    miejscowość w typowo włoskim
+                    klimacie. Montecreto z równie urokliwym i klimatycznym pensjonatem - Trogolino.
+                    <br>Odległość do wyciągu - 200 m.
+                </p>
+                <p class="main__section__con__text">Strona rezydencji: <br>
+                    <a href="main__section__con__text__link">http://www.trogolino.it</a>
+                </p>
+            </div>
+            <div class="main__section__con">
+                <div class="main__section__con__imgcon">
+                    <img src="static/img/e4.jpg" alt="Zdjęcia rezydencji Trogolino"
+                        class="main__section__con__imgcon__img">
+                    <img src="static/img/e2.jpg" alt="Zdjęcia rezydencji Trogolino"
+                        class="main__section__con__imgcon__img">
+                    <img src="static/img/e9.jpg" alt="Zdjęcia rezydencji Trogolino"
+                        class="main__section__con__imgcon__img">
+                </div>
+
+            </div>
+            <div class="main__section__con">
+                <p class="main__section__con__text">Pensjonat posiada około 70 apartamentów w pełni umeblowanych z
+                    aneksami kuchennymi, łazienkami, TV. W restauracji, która jest integralną częścią pensjonatu można
+                    zjeść pyszne dania regionalne jak również typowo włoską pizzę z pieca opalanego drewnem. Do
+                    dyspozycji po całodniowym szusowaniu jest ogromny bar w którym można się zrelaksować przy
+                    regionalnym winie i muzyce na żywo - gra zespół "Con Lapsus"</p>
+            </div>
+        </section>
     </main>
+    <script src="static/js/navmobile.js"></script>
+
 </body>
 
 </html>

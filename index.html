@@ -10,6 +10,9 @@
         rel="stylesheet">
     <title>Narty w Apeninach</title>
     <link rel="stylesheet" href="style/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -32,6 +35,26 @@
                 </div>
             </div>
         </nav>
+        <nav class="header__navmobile">
+            <div class="header__navmobile__con">
+                <a href="index.html" class="header__navmobile__con__title">Narty w Apeninach</a>
+                <div class="header__navmobile__con__burgercon">
+                    <div class="header__navmobile__con__burgercon__burger">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            </div>
+            <ul class="header__navmobile__menucon">
+                <li class="header__navmobile__menucon__btncon"><a href="index.html"
+                        class="header__navmobile__menucon__btncon__btn">Strona główna</a></li>
+                <li class="header__navmobile__menucon__btncon"><a href="cennik.html"
+                        class="header__navmobile__menucon__btncon__btn">Cennik</a></li>
+                <li class="header__navmobile__menucon__btncon"><a href="pensjonat.html"
+                        class="header__navmobile__menucon__btncon__btn">Pensjonat</a></li>
+                <li class="header__navmobile__menucon__btncon"><a href="kontakt.html"
+                        class="header__navmobile__menucon__btncon__btn">Skontaktuj się</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="main">
         <section class="main__section main__section--blue">
@@ -52,7 +75,7 @@
                             zakwaterowania w miejscowości Maranello znajduje się siedziba najbardziej znanej marki
                             samochodowej na świecie... tak, tak to :-</p>
                     </div>
-                    <a href="" class="main__section__content__desc__btn">Czytaj więcej</a>
+                    <a href="atrakcje.html" class="main__section__content__desc__btn">Czytaj więcej</a>
                 </div>
                 <div class="main__section__content__img">
                     <img src="static/img/ferrari3.jpg" alt="">
@@ -74,11 +97,11 @@
                                 uczstników wyjazdów w poprzednich latach. Są tu ciekawe filmiki oraz zdjęcia!-</p>
                         </div>
                     </div>
-                    <a href="" class="main__section__content__desc__btn">Czytaj więcej</a>
+                    <a href="galeria.html" class="main__section__content__desc__btn">Czytaj więcej</a>
                 </div>
         </section>
     </main>
-
+    <script src="static/js/navmobile.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,78 @@
+// 1000px
+@media (max-width: 1000px)
+    html
+        font-size: 14px
+
+    .main
+        &__section
+            &__con
+                &__imgcon
+                    width: 100%
+                &__img
+                    width: 100%
+
+@media screen and ( max-width:  900px)
+    html
+        font-size: 13px
+
+@media screen and ( max-width:  820px)
+    // html
+    //     font-size: 12px
+
+    .header
+        &__nav
+            display: none
+        &__navmobile
+            display: block
+
+    .main
+        &__section
+            &__img
+                margin: 7% auto
+            &__content
+                margin: 12% 0
+            &__con
+                margin: 7% 0
+                &__imgcon
+                    width: 100%
+            &__desc
+                &__con
+                    margin: 5% 0
+
+@media screen and ( max-width:  600px)
+    html
+        font-size: 12px
+    .main
+        &__section
+            &__content
+                &__img
+                    display: none
+                &__desc
+                    flex-basis: 100%
+                    text-align: center
+                    &__con
+                        justify-content: center
+                        &__arrow
+                            margin-right: 5%
+                    &__btn
+                        display: block
+                        margin: 0 auto
+@media screen and ( max-width:  480px)
+    html
+        font-size: 12px
+
+    .main
+        &__section
+            &__img
+                margin: 10% auto
+            &__content
+                margin: 15% 0
+            &__con
+                margin: 10% 0
+            &__desc
+                &__con
+                    margin: 7% 0
+
+@media screen and ( max-width:  350px)
+    html
+        font-size: 12px
