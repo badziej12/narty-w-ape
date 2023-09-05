@@ -5,6 +5,7 @@
     top: 0
     left: 0
     right: 0
+    z-index: 2
     &__navmobile
         display: none
         position: relative
@@ -78,7 +79,15 @@
                     text-decoration: none
                     font-weight: $font-light
                     line-height: calc($nav-height - 20px)
-
+        &__closebg
+            position: absolute
+            display: none
+            // background-color: black
+            width: 100vw
+            height: 100vh
+            z-index: -2
+            &.active
+                display: block
     &__nav
         display: flex
         flex-direction: row
