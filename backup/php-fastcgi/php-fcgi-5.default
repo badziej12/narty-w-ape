@@ -1,0 +1,2 @@
+#!/bin/bash
+exec /usr/local/php5/bin/php-cgi -c /usr/local/php5/php.ini -d open_basedir=/home/`id -un`:/tmp

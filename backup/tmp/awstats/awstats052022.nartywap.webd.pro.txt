@@ -1,0 +1,281 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202205 will be lost/reset.
+# Last config file used to build this data file was /home/nartywap/tmp/awstats/awstats.nartywap.webd.pro.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2689                
+POS_VISITOR 6019                
+POS_DAY 7305                
+POS_DOMAIN 3302                
+POS_LOGIN 3540                
+POS_ROBOT 3695                
+POS_WORMS 3903                
+POS_EMAILSENDER 4034                
+POS_EMAILRECEIVER 4177                
+POS_SESSION 7623                
+POS_SIDER 7770                
+POS_FILETYPES 4312                
+POS_DOWNLOADS 4394                
+POS_OS 4442                
+POS_BROWSER 4565                
+POS_SCREENSIZE 4725                
+POS_UNKNOWNREFERER 4799                
+POS_UNKNOWNREFERERBROWSER 4886                
+POS_ORIGIN 4968                
+POS_SEREFERRALS 5100                
+POS_PAGEREFS 5244                
+POS_SEARCHWORDS 5392                
+POS_KEYWORDS 5544                
+POS_MISC 2352                
+POS_ERRORS 5603                
+POS_CLUSTER 3396                
+POS_SIDER_404 5693                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220601115428 3 382 10718755532748
+FirstTime 20220502132335
+LastTime 20220531132258
+LastUpdate 20220601181718 3 0 2 0 0
+TotalVisits 32                  
+TotalUnique 32                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 32                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 23 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 2077 1 3 110960
+1 0 0 0 0 1 112382
+2 0 0 0 1 2 28960
+3 0 0 0 1 1 4764
+4 0 0 0 1 3 160994
+5 0 0 0 0 3 321351
+6 1 1 2077 0 2 95678
+7 0 0 0 0 5 244779
+8 0 0 0 2 15 486047
+9 0 0 0 0 3 107855
+10 0 0 0 1 1 4764
+11 1 1 2077 0 7 733896
+12 1 1 1889 1 6 1027934
+13 27 27 56079 1 27 311942
+14 0 0 0 1 8 1069704
+15 0 0 0 0 1 5157
+16 0 0 0 1 4 335488
+17 0 0 0 1 4 305057
+18 0 0 0 3 6 739072
+19 0 0 0 2 4 17538
+20 1 1 2077 1 6 151332
+21 0 0 0 0 3 912876
+22 0 0 0 0 1 235442
+23 0 0 0 0 3 216423
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 31 31 64199
+ru 1 1 2077
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+bingbot/ 72 7583290 20220531162529 0
+no_user_agent 4 19056 20220525122726 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 32 66276 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+macosx 1 1
+macosx8 1 1
+linux 27 27
+macosx10 2 2
+win10 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 5
+chrome83.0.4103.97 27 27
+firefox59.0 2 2
+chrome26.0.1410.65 1 1
+chrome71.0.3578.98 1 1
+chrome95.0.4638.54 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 32 32
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 20 125146
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/robots.txt 20 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 32
+35.89.143.166 1 1 2077 20220528133836
+64.246.165.190 1 1 2077 20220523062533
+54.244.41.164 1 1 2077 20220513132654
+54.213.211.1 1 1 2077 20220513132649
+54.187.175.219 1 1 2077 20220526133815
+35.87.224.106 1 1 2077 20220526004204
+34.214.106.152 1 1 2077 20220520131723
+77.74.177.119 1 1 2077 20220509203510
+34.215.137.242 1 1 2077 20220513132810
+52.24.89.246 1 1 2077 20220513132737
+34.221.74.60 1 1 2077 20220528134321
+54.70.128.114 1 1 2077 20220508133323
+34.209.82.184 1 1 2077 20220531132257
+34.216.252.222 1 1 2077 20220528133836
+54.188.37.70 1 1 2077 20220508133024
+35.167.18.170 1 1 2077 20220515132337
+34.217.51.136 1 1 2077 20220513132806
+34.221.74.187 1 1 2077 20220531132258
+34.219.36.54 1 1 2077 20220505132808
+34.209.40.120 1 1 2077 20220502132338
+34.219.164.112 1 1 2077 20220510132020
+34.220.6.56 1 1 2077 20220515132345
+35.86.176.107 1 1 2077 20220508134631
+216.145.11.94 1 1 2077 20220503113302
+54.147.108.125 1 1 1889 20220528123918
+54.69.57.101 1 1 2077 20220502132335
+54.202.219.18 1 1 2077 20220520133340
+54.190.44.59 1 1 2077 20220526133743
+35.88.220.246 1 1 2077 20220508133219
+34.219.195.147 1 1 2077 20220510132020
+34.220.143.6 1 1 2077 20220513133006
+35.87.43.230 1 1 2077 20220526133742
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20220502 2 2 4154 2
+20220503 1 1 2077 1
+20220505 1 1 2077 1
+20220508 4 4 8308 4
+20220509 1 1 2077 1
+20220510 2 2 4154 2
+20220513 6 6 12462 6
+20220515 2 2 4154 2
+20220520 2 2 4154 2
+20220523 1 1 2077 1
+20220526 4 4 8308 4
+20220528 4 4 8120 4
+20220531 2 2 4154 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 32
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 32 66276 32 32
+END_SIDER

@@ -1,0 +1,315 @@
+.main
+    max-width: 1140px
+    width: 100%
+    margin: 0 auto
+    padding: $nav-height 0
+
+    &__section
+        background-color: white
+        padding: 5% 7%
+        &--blue
+            background-color: $global-color-primary
+        &--lower
+            margin-top: $nav-height
+        &--nopadding
+            padding: 0 7%
+        &__headcon
+            display: flex
+            justify-content: center
+            &__imgcon
+                margin: 2% 3%
+                // display: flex
+            &__titlecon
+                display: flex
+                flex-direction: column
+                &__logo
+                    max-width: 120px
+                    width: 40%
+                    align-self: flex-end
+        &__video
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-around
+            &__linkcon
+                display: flex
+                align-items: center
+                min-width: 200px
+                margin: 2% 1%
+
+                &:hover &__ytlogo, &:hover &__link
+                    transform: scale(1.1)
+                &__ytlogo
+                    max-width: 30px
+                    transition: .3s
+                    transform: scale(1)
+                &__link
+                    padding: 0 10%
+                    display: block
+                    white-space: nowrap
+                    text-decoration: none
+                    color: $global-color-text
+                    transition: .3s
+                    transform: scale(1)
+
+        &__title
+            // padding-top: 5%
+            color: $global-color-text
+            text-align: center
+            &--smaller
+                font-size: $size-h2
+                font-weight: $font-semi-bold
+            &--left
+                text-align: left
+            &--padding
+                padding-top: 5%
+            &--lineheight
+                line-height: 350%
+        &__text
+            color: $global-color-text
+            font-weight: $font-light
+            text-align: center
+        &__img
+            width: 100%
+            margin: 5% auto
+            &--smaller
+                display: block
+                width: 80%
+                margin: 10% auto
+        &__bgimg
+            position: relative
+            background-image: url('../../static/img/image003.jpg')
+            width: 100%
+            aspect-ratio: 1.8/1
+            background-size: cover
+            margin: 5% auto
+            &__text
+                position: absolute
+                top: 5%
+                left: 5%
+                color: #ACD5FF
+                text-shadow: rgba(255, 255, 255, 0.75) 0px 0px 15px
+            &__img
+                width: 100%
+                margin: 5% auto
+                &--smaller
+                    display: block
+                    width: 80%
+                    margin: 10% auto
+        &__btn
+            display: block
+            text-decoration: none
+            color: white
+            background-color: $global-color-accent
+            width: 190px
+            line-height: 50px
+            border-radius: 6px
+            font-weight: $font-regular
+            text-transform: uppercase
+            font-size: $size-p-smaller
+            letter-spacing: 0.3px
+            text-align: center
+            margin: 0 auto
+            transition: .3s
+            &:hover
+                background-color: $global-color-accent-hover
+
+        &__content
+            display: flex
+            justify-content: space-between
+            margin: 10% 0 10% 0
+
+            &__desc
+                flex-basis: 50%
+                display: flex
+                flex-direction: column
+                justify-content: center
+                &__title
+                    font-weight: $font-semi-bold
+                    color: $global-color-text
+                    margin-bottom: 5%
+
+                &__text
+                    line-height: 150%
+                    color: $global-color-text
+                    font-weight: $font-light
+                    margin-bottom: 5%
+                &__con
+                    display: flex
+                    align-items: center
+                    margin-bottom: 10%
+                    justify-content: space-around
+
+                    &__arrow
+                        width: 0
+                        height: 0
+                        border-top: 5px solid transparent
+                        border-bottom: 5px solid transparent
+                        border-left: 7px solid green
+
+                    &__text
+                        line-height: 150%
+                        color: $global-color-text
+                        font-weight: $font-light
+                        flex-basis: 80%
+
+                &__btn
+                    display: block
+                    width: 190px
+                    padding: 0 40px
+                    line-height: 50px
+                    border-radius: 6px
+                    background-color: $global-color-accent
+                    color: white
+                    font-weight: $font-regular
+                    text-decoration: none
+                    text-transform: uppercase
+                    font-size: $size-p-smaller
+                    letter-spacing: 0.3px
+                    text-align: center
+                    transition: .3s
+                    &:hover
+                        background-color: $global-color-accent-hover
+            &__img
+                display: flex
+                flex-direction: column
+                justify-content: center
+                width: 40%
+                // img
+                //     width: 100%
+            &__img--wide
+                width: 45%
+
+        // montecimone.html
+        &__desc
+            color: $global-color-text
+            &__title
+                font-size: $size-h3
+                font-weight: $font-medium
+
+            &__con
+                margin: 3% 0
+                &--margin
+                    margin: 10% 0
+                &__title
+                    font-size: $size-h4
+                    font-weight: $font-medium
+                    margin-bottom: 3%
+                    &--center
+                        text-align: center
+                &__text
+                    line-height: 150%
+                    font-weight: $font-light
+                &__img
+                    display: block
+                    width: 80%
+                    margin: 0 auto
+                &__imgcon
+                    display: flex
+                    margin: 5% 0
+                    justify-content: space-around
+
+        &__visitsite
+            display: flex
+            flex-direction: column
+            max-width: 280px
+            margin: 10% auto
+            &__title
+                font-size: $size-h4
+                font-weight: $font-medium
+                line-height: 110%
+                text-align: center
+            &__flagcon
+                display: flex
+                margin-top: 20%
+                &__flag
+                    flex-basis: 50%
+                    &__link
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        &:hover &__img
+                            transform: scale(1.2)
+                        &__img
+                            width: 45%
+                            transform: scale(1)
+                            transition: .3s
+                            box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px
+
+        &__con
+            margin: 5% 0
+            &--margin
+                margin: 10% 0
+            &__title
+                font-size: $size-h4
+                font-weight: $font-medium
+                display: inline-block
+                line-height: 200%
+                border-bottom: 2px $global-color-accent solid
+            &__imgcon
+                display: flex
+                width: 90%
+                margin: 0 auto
+                &__img
+                    display: block
+                    width: 33%
+            &__table
+                display: block
+                width: 100%
+                &__box
+                    flex-basis: 20%
+                    aspect-ratio: 2/1
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    border: 1px $global-color-third solid
+                    &--top
+                        border-top: none
+                    &--left
+                        border-left: none
+                    &--right
+                        border-right: none
+                    &--bottom
+                        border-bottom: none
+                    &__text
+                        font-size: $size-h5
+                        font-weight: $font-medium
+                    &__dot
+                        background-color: $global-color-text
+                        height: 10px
+                        width: 10px
+                        border-radius: 50%
+            &__text
+                color: $global-color-text
+                font-weight: $font-light
+                line-height: 150%
+                &--big
+                    font-weight: $font-medium
+                    font-size: $size-h5
+                &--margin
+                    margin: 3% 0
+                &--center
+                    text-align: center
+
+            &__img
+                display: block
+                width: 90%
+                margin: 0 auto
+
+            &__contact
+                display: flex
+                max-width: 350px
+                justify-content: space-between
+                margin: 3% auto
+                &__text
+                    flex-grow: 1
+                    text-align: center
+                    font-size: $size-h4
+                    font-weight: $font-medium
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    &__link
+                        text-decoration: none
+                        color: $global-color-text
+                &__img
+                    width: 50px

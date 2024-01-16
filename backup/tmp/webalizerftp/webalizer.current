@@ -1,0 +1,136 @@
+# Webalizer V2.23-08 Incremental Data - 11/08/2023 23:17:37
+2023 11 8 23 17 37
+7 7 1 7 0 0 71912 1 1 1
+1 10 10 8 8
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+7 7 71912 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+7 7 71912 1
+0
+0
+0
+7
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/home/nartywap/public_html/
+0 1 13309008 8968 1 0
+/home/nartywap/public_html/atrakcje.html
+0 1 13308864 12982 0 0
+/home/nartywap/public_html/cennik.html
+0 1 13308384 7110 0 0
+/home/nartywap/public_html/galeria.html
+0 1 13309136 17778 0 0
+/home/nartywap/public_html/kontakt.html
+0 1 13309264 6455 0 0
+/home/nartywap/public_html/montecimone.html
+0 1 13309392 9046 0 0
+/home/nartywap/public_html/pensjonat.html
+0 1 13309536 9573 0 0
+# End Of Table - urls
+# -sites- (monthly)
+37.109.162.215
+0 7 7 71912 1 1699485456
+/home/nartywap/public_html/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+37.109.162.215
+0 7 7 71912 1 1699485456
+/home/nartywap/public_html/
+# End Of Table - sites (daily)
+# -referrers- 
+# End Of Table - referrers
+# -agents- 
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+nartywap
+0 7 7 71912 2 1699485456
+# End Of Table - usernames

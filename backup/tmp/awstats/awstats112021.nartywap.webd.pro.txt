@@ -1,0 +1,781 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202111 will be lost/reset.
+# Last config file used to build this data file was /home/nartywap/tmp/awstats/awstats.nartywap.webd.pro.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2688                
+POS_VISITOR 40824               
+POS_DAY 44490               
+POS_DOMAIN 3375                
+POS_LOGIN 3706                
+POS_ROBOT 3861                
+POS_WORMS 4110                
+POS_EMAILSENDER 4241                
+POS_EMAILRECEIVER 4384                
+POS_SESSION 44886               
+POS_SIDER 45082               
+POS_FILETYPES 4519                
+POS_DOWNLOADS 4702                
+POS_OS 4750                
+POS_BROWSER 4920                
+POS_SCREENSIZE 5671                
+POS_UNKNOWNREFERER 5745                
+POS_UNKNOWNREFERERBROWSER 5832                
+POS_ORIGIN 5914                
+POS_SEREFERRALS 6052                
+POS_PAGEREFS 6196                
+POS_SEARCHWORDS 6344                
+POS_KEYWORDS 6496                
+POS_MISC 2351                
+POS_ERRORS 6555                
+POS_CLUSTER 3562                
+POS_SIDER_404 6671                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211201083043 2 81 11465747115414
+FirstTime 20211117194652
+LastTime 20211130124958
+LastUpdate 20211201163918 2 0 1 0 0
+TotalVisits 85                  
+TotalUnique 76                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 97                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 12 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 27 4884740 3 3 14289
+1 2 206 2453471 0 1 5923
+2 0 0 0 0 0 0
+3 2 2 9526 0 0 0
+4 3 19 4409382 0 0 0
+5 2 13 3206465 0 0 0
+6 0 0 0 0 0 0
+7 1 1 0 0 1 561
+8 1 9 2203679 0 0 0
+9 11 162 17295969 2 3 4723
+10 14 267 26775320 1 6 15498
+11 15 96 14772195 0 3 76105
+12 8 344 10146021 0 1 529
+13 21 53 7697498 0 578 3387362
+14 8 16 317279 0 190 1117010
+15 0 0 0 0 0 0
+16 13 56 10120426 2 2 4100
+17 38 493 24329971 2 4 10508
+18 66 916 23668564 1 1 4764
+19 22 476 11583955 0 393 2305129
+20 63 813 18454238 0 0 0
+21 12 187 22474602 0 1 561
+22 0 0 0 0 0 0
+23 0 0 0 1 1 4763
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+pl 214 3073 132385577
+us 60 783 56125026
+ru 31 271 9863445
+cl 2 12 2157062
+de 2 12 2348286
+ro 0 1 723974
+fr 0 4 1199931
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+Dalvik/ 6 12362 20211124171904 0
+no_user_agent 4 19053 20211130183243 0
+facebookexternalhit/ 1 2081 20211120101216 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+html 309 547087 0 0
+gif 49 1360865 0 0
+jpg 3358 199485676 0 0
+js 104 969298 0 0
+png 224 2337185 0 0
+css 112 103190 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+linuxandroid 382 15
+linux 33 9
+win10 3615 264
+ios_iphone 83 11
+macosx 1 1
+win8.1 9 1
+win16 1 1
+win7 32 7
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 35
+chrome70.0.3538.102 9 1
+mozilla 1 1
+chrome95.0.4638.54 18 2
+firefox24.0 6 6
+msie11.0 9 1
+chrome91.0.4472.124 12 2
+opera80.0.4170.63 12 2
+firefox94.0 402 11
+chrome89.0.4389.90 18 0
+firefox82.0 1 1
+chrome96.0.4664.45 2828 212
+edge12 1 1
+firefox70.0 1 1
+chrome80.0.3987.87 9 1
+msie9.0 2 1
+chrome83.0.4103.61 2 2
+firefox84.0 28 3
+chrome89.0.4389.116 222 6
+chrome83.0.4103.106 6 6
+chrome90.0.4430.210 21 3
+chrome79.0.3945.79 18 2
+chrome67.0.3396.79 1 1
+safari14.1.2 22 3
+firefox64.0 10 10
+firefox74.0 1 1
+opera81.0.4196.54 19 3
+firefox78.0 18 2
+firefox49.0 1 1
+chrome76.0.3809.71 9 1
+safari13.1.2 18 2
+chrome95.0.4638.69 369 11
+firefox88.0 1 1
+chrome90.0.4421.0 9 1
+chrome90.0.4430.72 9 1
+safari15.1 43 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 98 125
+From1 1 1
+From2 0 0
+From3 0 0
+From4 210 4030
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 1161 6825495
+206 3 80339
+403 1 5923
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 380
+/galeria_files/vlb_engine/vlbdata1.js 7 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/161707732707b7ae69.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/2319140043e69857a.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2003.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/11469200973a1b81e8.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/23846776566a4dbfd.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/2319140043e69857a.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/sdc10312.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2062.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dsc_0351.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/8748602781e4e78bd.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/858434711127505be.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/10832801126d57e580.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/10854426682bdd08f8.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/154859021252675fdb.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_1039.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dsc_0360.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/15489175465e849237.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/48510145206fbf51.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2050.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010461.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2027.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/376970142c20beb8.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2028.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/8831835112d8dfefb.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_1008.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/206563777373325eea.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2061.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2002.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/18403735530707bc17.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/376970513290127b.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2078.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/687770500211fb1a3.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/sdc10313.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/33922424818304993.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/20209098790c2e2f30.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/10894406156758e24e.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2042.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dscf7337.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/337061655117d4010.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/3457122176dc41875.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/376970142c20beb8.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/10894406156758e24e.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2063.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/1165508352451c8efd.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/3432220107fa0ac42.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010459.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/3457122176dc41875.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/33922415350461947.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/sdc10481.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_engine/thumbscript1.js 6 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/23191419478816fca.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/125545151960e99828.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dscf7412.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/206563777373325eea.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/182300660352ab1f38.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/115718533840ce8b6b.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/sdc10313.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/883183350451c8efd.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010468.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010463.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/438572085866630d.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dscf7212.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2736.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/126626486430973f7f.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_engine/visuallightbox.js 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_1005.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2031.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2076.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/126875532752ab1f38.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/4415296030104a4e6.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/229751559324c531e.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/10854426682bdd08f8.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/1260104612461d9c4b.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/182549697159ca5bb0.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_1056.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dsc_0357.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/2359773316638a908.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/11571854703f6a92c8.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/8810206627e336bff.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2050.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/1085442705461d9c4b.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/161707722431984ccd.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_1049.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/3520645671623352.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/2338147916039a5d6.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_1054.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/sdc10481.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/881020757312c19d8.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2066.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010385.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/345384537172f3c45.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2027.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/23191419478816fca.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2744.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/18341477810552a878.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_1038.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2040.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_3040.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010468.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/3520645671623352.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_1054.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_engine/vlbdata1.js 6 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/236305106266ec283.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/23846760465379bba.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/115718533840ce8b6b.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dsc_0398.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dsc_0358.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010477.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/1629791060206fbf51.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/460197480054b294.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_files1/visuallightbox.css 3 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_files1/vlightbox1.css 3 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/2359773316638a908.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dscf7412.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2058.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2003.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/126659263920b37eae.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/858434711127505be.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/1623237806478194ee.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/1623237460396b8f96.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2032.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/1623237806478194ee.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/154242951965379bba.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2075.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2042.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_engine/thumbscript1.js 7 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_1002.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/15489175465e849237.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010385.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/236305106266ec283.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/2363052546b633020.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010476.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010372.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2065.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/125545151960e99828.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/10767265125f859f85.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/11571852804c3bcb75.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2026.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_1036.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2034.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2040.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010395.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_1036.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/885673681107c32c2.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010403.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010395.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010453.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010451.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010461.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2071.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/3432220107fa0ac42.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2074.jpg 2 http://nartywappeninach.pl/galeria.html
+/anoceanofsky.css 6 http://nartywappeninach.pl/
+/galeria_files/vlb_thumbnails1/p1010454.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2067.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/23846760465379bba.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/23846776566a4dbfd.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/161707722431984ccd.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2073.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/126626486430973f7f.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/687770500211fb1a3.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/sdc10312.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/6837727095317522d.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010388.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2738.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/2446281492d8dfefb.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/1260104612461d9c4b.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dscf7404.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010403.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dscf7275.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/20209098790c2e2f30.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/153777662458d29602.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_1048.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2058.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/1614586959009871f1.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_files1/vlightbox1.css 8 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/8810206627e336bff.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dsc_0357.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2028.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2077.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/16167497427780627c.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/2363052546b633020.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/16167497427780627c.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/11571854703f6a92c8.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dscf7259.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/8704693666c56d832.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010441.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/4793507611a00752b.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010453.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/11658359950c71e4f0.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/24711841439af4ef3.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2073.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/10767265656039a5d6.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dsc_0400.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dsc_0348.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_3037.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2031.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2071.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/154026688927d2bb26.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2065.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2002.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/584479575a368ea5.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/154859021252675fdb.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2068.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/1165508352451c8efd.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2061.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dsc_0360.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/161707732707b7ae69.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/33706152312e138b3.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/1152794368576555bf.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/153777662458d29602.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/15377767720b7e3cde.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/23381470906bfe8bb.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/460199912d21cc06.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_1049.jpg 4 http://nartywappeninach.pl/galeria.html
+/apple-touch-icon-precomposed.png 1 -
+/galeria_files/vlb_thumbnails1/4601992538b78945.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/8748602781e4e78bd.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/33706152312e138b3.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_1038.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/100_2375.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/11655085134689cf40.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_files1/visuallightbox.css 8 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_1008.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dscf7404.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/352065880bc1fc3b.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2063.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/11658359950c71e4f0.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2064.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010460.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010459.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/162979131132fc4570.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010388.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dsc_0400.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/23381470906bfe8bb.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/441529508413abe60.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2075.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/8704693666c56d832.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/438572085866630d.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dsc_0384.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2752.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_1002.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_1506.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2067.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2076.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/376970513290127b.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dsc_0348.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2029.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2034.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/2446281492d8dfefb.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2738.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2078.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/182549697159ca5bb0.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/6837727095317522d.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/10919308640653b5c6.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/2424654900653b5c6.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dsc_0398.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dsc_0404.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2062.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dscf7398.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_1506.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/1631954057107c32c2.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/15377767720b7e3cde.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010477.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/1085442705461d9c4b.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dscf7337.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/504108080d72f23e.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dscf7403.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_engine/visuallightbox.js 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/8831835112d8dfefb.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/881020757312c19d8.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/1152794368576555bf.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010467.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2030.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2744.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2032.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/100_2375.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/10829524034da90bb8.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/154891758357fa3018.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/154642737651b3598a.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dscf7259.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dsc_0391.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_1056.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/18251690400054b294.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/18341477810552a878.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2029.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dsc_0391.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010476.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/10919308640653b5c6.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/10829524034da90bb8.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/4602008670612604.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_1005.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010451.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/1623237460396b8f96.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/8745326936638a908.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_engine/jquery.min.js 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2752.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010463.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/18363103081fbbb900.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_1048.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/8745326936638a908.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/229751559324c531e.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010372.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/126659263920b37eae.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/33922424818304993.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/154642737651b3598a.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/345384537172f3c45.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/883183350451c8efd.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/182300660352ab1f38.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/1614586959009871f1.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dsc_0358.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2035.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/2424654900653b5c6.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2077.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_engine/jquery.min.js 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/18363103081fbbb900.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dsc_0351.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/1629791060206fbf51.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/10832801126d57e580.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010467.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/18403737386ba6ef7d.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dsc_0384.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/18403735530707bc17.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010460.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_3037.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/18403737386ba6ef7d.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_1039.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_3040.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/154242951965379bba.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/352065880bc1fc3b.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2074.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/4793507611a00752b.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/10767265125f859f85.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/18251690400054b294.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/4601992538b78945.jpg 2 http://nartywappeninach.pl/galeria.html
+/apple-touch-icon.png 1 -
+/robots.txt 1 -
+/index_files/vlb_thumbnails1/img_2736.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010454.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2064.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/11469200973a1b81e8.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dscf7403.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dscf7212.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/584479575a368ea5.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/img_2026.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/247118319256db535.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/1631954057107c32c2.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/441529508413abe60.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/48510145206fbf51.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2068.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2030.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/115279433119944236.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/162979131132fc4570.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2066.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/4415296030104a4e6.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/460197480054b294.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/11655085134689cf40.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/504108080d72f23e.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010441.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/885673681107c32c2.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/p1010466.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/11571852804c3bcb75.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/460199912d21cc06.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/2338147916039a5d6.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/337061655117d4010.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/p1010466.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/4602008670612604.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/154026688927d2bb26.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/115279433119944236.jpg 2 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dscf7398.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/24711841439af4ef3.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/img_2035.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/126875532752ab1f38.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/10767265656039a5d6.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/33922415350461947.jpg 4 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/247118319256db535.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/dsc_0404.jpg 2 http://nartywappeninach.pl/galeria.html
+/galeria_files/vlb_thumbnails1/dscf7275.jpg 4 http://nartywappeninach.pl/galeria.html
+/index_files/vlb_thumbnails1/154891758357fa3018.jpg 2 http://nartywappeninach.pl/galeria.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 97
+217.97.64.80 104 1767 39874839 20211129183907
+217.97.89.190 60 287 6415588 20211117210531
+185.186.158.41 27 244 4492955 20211124140857
+54.196.103.227 6 6 12321 20211128183257
+165.225.94.181 6 26 2395007 20211124114115
+87.205.162.216 6 222 5125669 20211120070943
+213.17.241.230 5 187 17024921 20211128170254
+65.154.226.220 4 20 4411112 20211122164459
+31.0.67.192 4 34 4039574 20211120101552
+5.173.254.2 4 14 2357812 20211120113646
+46.204.48.207 4 197 16795524 20211128100256
+165.225.202.185 3 210 3998041 20211117201050
+165.225.202.187 2 9 274175 20211126115007
+5.173.250.46 2 2 9526 20211121163122
+185.186.156.68 2 9 963158 20211121162709
+31.0.122.42 2 3 25778 20211129182636
+194.156.44.3 2 12 2348286 20211123101723
+165.225.202.178 2 42 5697484 20211130124958
+31.60.118.86 2 2 9526 20211124171904
+83.26.170.108 2 12 2348337 20211121112332
+165.225.94.189 2 204 2367768 20211119203042
+83.9.182.243 2 113 4840563 20211128212502
+165.225.94.152 2 99 1120780 20211130124744
+31.0.123.87 2 118 5636242 20211127100106
+3.229.178.246 1 9 2203650 20211128093957
+104.222.43.118 1 1 4763 20211119212129
+44.227.127.2 1 9 2203653 20211119212837
+104.222.43.184 1 1 4763 20211120035547
+54.37.100.111 1 1 2050 20211120001230
+195.82.178.14 1 9 2203653 20211121132242
+104.222.43.62 1 1 4763 20211125184636
+40.94.94.26 0 1 723974 
+205.237.93.7 0 1 1062201 
+104.222.43.167 1 1 4763 20211120104526
+104.222.43.135 1 1 4763 20211125184635
+40.94.103.26 0 1 723974 
+185.186.156.100 1 9 2203653 20211121211838
+165.225.202.186 0 10 795431 
+5.173.8.253 1 9 2203679 20211122185427
+104.222.43.250 1 1 4763 20211120104532
+40.94.94.5 0 1 187001 
+45.11.60.5 1 9 2203653 20211121173552
+64.137.20.186 0 1 187001 
+40.94.94.81 0 1 89761 
+37.30.48.124 1 9 2203653 20211119215920
+104.222.43.245 1 1 4763 20211125184635
+35.165.65.210 1 1 2050 20211121001518
+38.205.188.77 1 5 1003744 20211128094033
+188.241.202.64 0 1 723974 
+83.26.231.55 1 9 2203679 20211121190525
+192.210.139.121 1 1 2050 20211125122220
+38.205.190.204 1 9 2203675 20211128094031
+5.172.235.125 1 9 2203653 20211120185617
+23.94.145.149 1 1 4763 20211120035551
+23.94.145.164 1 1 4763 20211125184637
+18.234.18.45 1 9 2203650 20211128094000
+104.222.43.124 1 1 4763 20211120104531
+54.71.187.124 1 9 2203653 20211119212059
+88.220.177.198 1 9 2203653 20211123111010
+23.100.232.233 1 2 2986 20211121165923
+40.94.103.38 0 1 1062201 
+181.215.168.24 0 1 137104 
+52.65.88.94 1 1 2050 20211120044947
+181.214.178.95 0 1 294 
+74.85.216.52 0 1 332 
+13.58.141.241 1 1 2081 20211121193225
+31.183.206.19 1 9 2203653 20211120211830
+5.173.248.169 1 4 1435390 20211129135953
+185.56.211.37 1 9 2203653 20211124171414
+172.111.215.168 1 9 2203679 20211120052451
+40.94.94.15 0 1 137104 
+64.137.27.6 0 1 187001 
+100.21.42.170 1 9 2203653 20211119212816
+40.94.94.17 0 2 1063137 
+40.94.103.39 0 2 187333 
+83.7.46.238 1 10 2203949 20211128093954
+5.173.12.38 1 9 2203653 20211123111000
+212.103.48.4 0 4 1199931 
+93.175.137.132 1 9 2203650 20211128132316
+65.154.226.165 1 9 2203653 20211124111701
+100.26.52.66 0 18 6004416 
+69.25.58.56 1 1 4763 20211126000046
+40.94.103.89 1 5 230171 20211119212423
+40.94.94.13 0 2 626 
+185.234.240.33 1 9 2203679 20211121211817
+38.108.182.5 1 9 2203679 20211126004405
+40.94.94.63 1 1 2047 20211129092736
+172.245.217.88 1 1 2050 20211125122220
+178.42.177.75 1 9 2203679 20211120081753
+181.214.144.180 0 1 936 
+64.137.21.31 0 1 89761 
+191.101.213.156 1 8 2016678 20211120043513
+31.182.241.20 1 1 0 20211124173714
+165.225.94.150 1 1 2050 20211117203552
+70.39.129.104 1 1 4764 20211129182412
+191.96.117.108 1 1 2050 20211120043507
+193.41.231.15 1 1 2081 20211122162324
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20211117 64 498 10415679 3
+20211119 8 250 13390822 7
+20211120 27 331 24772966 18
+20211121 14 72 14346455 11
+20211122 6 30 6616872 3
+20211123 4 30 6755592 3
+20211124 38 301 12100225 6
+20211125 6 6 23152 6
+20211126 24 605 19537175 6
+20211127 15 230 10577748 4
+20211128 19 560 53888853 11
+20211129 80 1102 25559498 5
+20211130 4 141 6818264 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 3
+30s-2mn 1
+2mn-5mn 3
+1h+ 3
+15mn-30mn 3
+0s-30s 72
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 133 250259 83 67
+/galeria.html 123 234200 0 10
+/kontakt.html 17 13937 0 3
+/cennik.html 13 15105 2 3
+/oferta.html 12 15975 0 1
+/atrakcje.html 11 17611 0 1
+END_SIDER

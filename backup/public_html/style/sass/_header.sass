@@ -1,0 +1,188 @@
+.header
+    height: $nav-height
+    background-color: white
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    z-index: 2
+    &__navmobile
+        display: none
+        position: relative
+        background-color: white
+        &__con
+            height: $nav-height
+            display: flex
+            padding: 0 3%
+            justify-content: space-between
+            &__title
+                display: block
+                line-height: $nav-height
+                font-weight: $font-regular
+                color: $global-color-text
+                text-decoration: none
+            &__burgercon
+                display: flex
+                justify-content: center
+                align-items: center
+                width: $nav-height
+                height: $nav-height
+                cursor: pointer
+                &__burger
+                    position: relative
+                    width: 40%
+                    height: 20%
+                    span
+                        display: block
+                        position: absolute
+                        width: 100%
+                        height: 3px
+                        background-color: $global-color-accent
+                        border-radius: 10px
+                        // transition: .5s
+                    span:nth-child(1)
+                        top: 0
+                        animation: top-burger-stop .3s forwards
+                        &.active
+                            animation: top-burger-start .3s forwards
+
+                    span:nth-child(2)
+                        top: 50%
+                        animation: middle-burger-stop .3s forwards
+                        &.active
+                            animation: middle-burger-start .3s forwards
+
+                    span:nth-child(3)
+                        top: 100%
+                        animation: bottom-burger-stop .3s forwards
+                        &.active
+                            animation: bottom-burger-start .3s forwards
+
+        &__menucon
+            position: absolute
+            z-index: -1
+            top: $nav-height
+            left: 0
+            right: 0
+            padding: 0
+            background-color: white
+            transform: translateY(-100%)
+            transition: .3s
+            &.active
+                transform: translateY(0)
+            &__btncon
+                list-style: none
+                &__btn
+                    display: block
+                    padding: 0 3%
+                    color: $global-color-text
+                    text-decoration: none
+                    font-weight: $font-light
+                    line-height: calc($nav-height - 20px)
+        &__closebg
+            position: absolute
+            display: none
+            // background-color: black
+            width: 100vw
+            height: 100vh
+            z-index: -2
+            &.active
+                display: block
+    &__nav
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        max-width: 1140px
+        margin: 0 auto
+        padding: 0 3%
+        &__title
+            display: block
+            line-height: $nav-height
+            font-weight: $font-regular
+            color: $global-color-text
+            text-decoration: none
+        &__right
+            display: flex
+            &__btn
+                padding: 10px 0
+                &__inner
+                    display: block
+                    line-height: calc($nav-height - 20px)
+                    color: $global-color-text
+                    text-decoration: none
+                    font-weight: $font-light
+                    padding: 0 40px
+                    transition: .3s
+                    &:hover
+                        color: $global-color-accent
+                .--blue
+                    background-color: $global-color-accent
+                    border-radius: 6px
+                    color: white
+                    padding: 0 50px
+                    transition: .3s
+                    &:hover
+                        background-color: $global-color-accent-hover
+                        // color: #434655
+
+@keyframes bottom-burger-start
+    0%
+        top: 100%
+        transform: rotate(0deg)
+    50%
+        top: 50%
+        transform: rotate(0deg)
+    100%
+        top: 50%
+        transform: rotate(45deg)
+
+@keyframes bottom-burger-stop
+    100%
+        top: 100%
+        transform: rotate(0deg)
+    50%
+        top: 50%
+        transform: rotate(0deg)
+    0%
+        top: 50%
+        transform: rotate(45deg)
+
+@keyframes middle-burger-start
+    0%
+        display: block
+    50%
+        display: none
+    100%
+        display: none
+
+@keyframes middle-burger-stop
+    100%
+        display: block
+    50%
+        display: block
+    49.9%
+        display: none
+    0%
+        display: none
+
+@keyframes top-burger-start
+    0%
+        top: 0%
+        transform: rotate(0deg)
+    50%
+        top: 50%
+        transform: rotate(0deg)
+    100%
+        top: 50%
+        transform: rotate(-45deg)
+
+@keyframes top-burger-stop
+    100%
+        top: 0%
+        transform: rotate(0deg)
+    50%
+        top: 50%
+        transform: rotate(0deg)
+    0%
+        top: 50%
+        transform: rotate(-45deg)

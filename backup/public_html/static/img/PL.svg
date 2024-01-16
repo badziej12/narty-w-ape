@@ -1,0 +1,14 @@
+<svg width="60" height="40" viewBox="0 0 60 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="PL" clip-path="url(#clip0_42_14)">
+<g id="Group">
+<path id="Vector" d="M0 0.000488281H60V39.9996H0V0.000488281Z" fill="white"/>
+<path id="Vector_2" d="M0 0.000488281H60V20.0001H0V0.000488281Z" fill="white"/>
+</g>
+<path id="Vector_3" d="M0 20H60V39.9996H0V20Z" fill="#D80027"/>
+</g>
+<defs>
+<clipPath id="clip0_42_14">
+<rect width="60" height="40" fill="white"/>
+</clipPath>
+</defs>
+</svg>

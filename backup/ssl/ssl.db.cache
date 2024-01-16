@@ -1,0 +1,1 @@
+{"files":{"key":{},"certificate":{}},"indexes":{"certificate":{"modulus":{},"subject.commonName":{}}},"uniques":{"key":{"friendly_name":{},"modulus:ecdsa_curve_name:ecdsa_public":{}},"certificate":{"friendly_name":{}}}}

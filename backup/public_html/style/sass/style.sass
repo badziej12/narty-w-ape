@@ -1,0 +1,45 @@
+@import 'variables'
+@import 'header'
+@import 'main'
+@import 'mixins'
+
+*
+    margin: 0
+    box-sizing: border-box
+
+.divider-1
+    @include divider(1px, 100%, #404040)
+
+html
+    font-family: $font-style
+    font-size: 15px
+
+body
+    background-image: url('../../static/img/tlo3.jpg')
+    background-attachment: fixed
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+h1
+    font-size: $size-h1
+    font-weight: $font-bold
+
+h2
+    font-size: $size-h2
+
+h3
+    font-size: $size-h3
+
+h4
+    font-size: $size-h4
+
+h5
+    font-size: $size-h5
+
+h6
+    font-size: $size-h6
+
+p
+    font-size: $size-p
+
+@import 'mobile'
