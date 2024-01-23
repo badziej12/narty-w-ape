@@ -129,7 +129,7 @@
   color: #212121;
   text-decoration: none;
   font-weight: 300;
-  padding: 0 40px;
+  padding: 0 25px;
   transition: 0.3s;
 }
 .header__nav__right__btn__inner:hover {
@@ -533,6 +533,9 @@
   line-height: 200%;
   border-bottom: 2px #2270E2 solid;
 }
+.main__section__con__title--no-border {
+  border-bottom: none;
+}
 .main__section__con__imgcon {
   display: flex;
   width: 90%;
@@ -617,6 +620,13 @@
 }
 .main__section__con__contact__img {
   width: 50px;
+}
+.main__section__con a {
+  color: #212121;
+  text-decoration: none;
+}
+.main__section__con a:hover {
+  color: #2270E2;
 }
 
 * {

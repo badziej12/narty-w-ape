@@ -267,6 +267,8 @@
                 display: inline-block
                 line-height: 200%
                 border-bottom: 2px $global-color-accent solid
+                &--no-border
+                    border-bottom: none
             &__imgcon
                 display: flex
                 width: 90%
@@ -335,3 +337,9 @@
                         color: $global-color-text
                 &__img
                     width: 50px
+
+            a
+                color: $global-color-text
+                text-decoration: none
+                &:hover
+                    color: $global-color-accent
