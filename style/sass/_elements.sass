@@ -1,0 +1,41 @@
+.floating-calabria
+    display: block
+    position: fixed
+    z-index: 2
+    height: 60px
+    width: 60px
+    top: 30vh
+    right: 10px
+    border-radius: 50%
+    background-image: url('../../static/calabria/floating-calabria-bg.png')
+    background-position: center
+    background-size: cover
+    transition: .3s
+    transform: scale(1)
+    animation: pulse
+    animation-iteration-count: infinite
+    animation-duration: 8s
+    box-shadow: 0 0 10px 2px white
+    &:hover
+        animation: none
+        transform: scale(1.2)
+
+@keyframes pulse
+    0%
+        transform: scale(1)
+    40%
+        transform: scale(1)
+    42%
+        transform: scale(1.2)
+    44%
+        transform: scale(1)
+    46%
+        transform: scale(1.2)
+    48%
+        transform: scale(1)
+    50%
+        transform: scale(1.2)
+    52%
+        transform: scale(1)
+    100%
+        transform: scale(1)
