@@ -3,4 +3,4 @@ Allow: /
 Disallow: /backup/
 Disallow: /style/sass/
 
-Sitemap: https://nartywapeninach.pl/sitemap.xml
+Sitemap: https://nartywappeninach.pl/sitemap.xml
